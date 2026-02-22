@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DozatorDeCola.srcs/sources_1/new/MUX4la1.vhd" \
+"../../../../DozatorDeCola.srcs/sources_1/new/adder.vhd" \
+"../../../../DozatorDeCola.srcs/sources_1/new/adder7b.vhd" \
+"../../../../DozatorDeCola.srcs/sources_1/new/main.vhd" \
+
+# Do not sort compile order
+nosort
